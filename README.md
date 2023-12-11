@@ -92,7 +92,8 @@ Test Production là quá trình kiểm tra đánh giá mô hình học máy sau 
 
 
 
-##TÀI LIỆU THAM KHẢO
+### Tài liệu tham khảo
+
 [1] L. Bottou, “Large-Scale Machine Learning with Stochastic Gradient Descent,” in COMPSTAT, 2010, pp. 177–186.
 
 [2] Y. LeCun, L. Bottou, G. B. Orr, and K. Müller, “Efficient backprop,” in Neural Networks: Tricks of the Trade, 2012, pp. 9–48.
@@ -118,7 +119,11 @@ Test Production là quá trình kiểm tra đánh giá mô hình học máy sau 
 [12] J. Schmidhuber, “Deep Learning in Neural Networks: An Overview,” Neural Networks, vol. 61, pp. 85-117, 2015.
 
 [13] Duchi et al., "Adaptive Subgradient Methods for Online Learning and Stochastic Optimization," JMLR, 2011.
+
 [14] Zeiler, "ADADELTA: An Adaptive Learning Rate Method," arXiv:1212.5701, 2012.
+
 [15] Wilson et al., "The Marginal Value of Adaptive Gradient Methods in Machine Learning," NIPS, 2017.
+
 [16] F. M. Castro et al., “Continual learning in practice,” IEEE Signal Processing Magazine, vol. 38, no. 6, pp. 101–114, 2021.
+
 [17] A. S. Polyak and L. Wolf, “Channel-wise cradle for lifelong learning,” in Proceedings of the IEEE/CVF International Conference on Computer Vision, 2021, pp. 1297–1306.
