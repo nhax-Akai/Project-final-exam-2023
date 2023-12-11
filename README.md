@@ -1,14 +1,15 @@
-
-1) Tìm hiểu, so sánh các phương pháp Optimizer trong huấn luyện mô hình học máy;
-SGD
-SGD (Stochastic Gradient Descent) là một thuật toán tối ưu hoá lặp được sử dụng phổ biến trong học máy. Nó là một biến thể của gradient descent, thực hiện cập nhật tham số mô hình (trọng số) dựa trên gradient của hàm loss được tính toán trên một tập hợp con được chọn ngẫu nhiên từ dữ liệu huấn luyện, thay vì toàn bộ dữ liệu [1].
+# Trình bày nghiên cứu câu 1 học máy
+MSSV: 52000376 Họ tên: Phạm Phong Nhã
+## 1) Tìm hiểu, so sánh các phương pháp Optimizer trong huấn luyện mô hình học máy
+### SGD (Stochastic Gradient Descent)
+SGD là một thuật toán tối ưu hoá lặp được sử dụng phổ biến trong học máy. Nó là một biến thể của gradient descent, thực hiện cập nhật tham số mô hình (trọng số) dựa trên gradient của hàm loss được tính toán trên một tập hợp con được chọn ngẫu nhiên từ dữ liệu huấn luyện, thay vì toàn bộ dữ liệu [1].  
 Ý tưởng cơ bản của SGD là lấy mẫu một tập hợp con nhỏ ngẫu nhiên từ dữ liệu huấn luyện, được gọi là mini-batch, và tính toán gradient của hàm loss đối với các tham số mô hình chỉ sử dụng tập con đó. Gradient này sau đó được sử dụng để cập nhật các tham số [2]. Quá trình này được lặp lại với một mini-batch ngẫu nhiên mới cho đến khi thuật toán hội tụ hoặc đạt đến tiêu chí dừng được xác định trước.
-SGD có một số ưu điểm so với gradient descent tiêu chuẩn, chẳng hạn như:
-Hội tụ nhanh hơn [3]: SGD có thể hội tụ nhanh hơn gradient descent, đặc biệt là khi dữ liệu huấn luyện lớn.
-Thoát khỏi các cực tiểu cục bộ [4]: SGD có khả năng thoát khỏi các cực tiểu cục bộ, điều này có thể giúp nó đạt được kết quả tốt hơn so với gradient descent tiêu chuẩn.
-Tuy nhiên, SGD cũng có một số nhược điểm:
-Yêu cầu nhiều lần lặp hơn [5]: SGD thường yêu cầu nhiều lần lặp hơn gradient descent để hội tụ.
-Nhạy cảm với tốc độ học [5]: Tốc độ học cần được điều chỉnh cẩn thận để đảm bảo hội tụ của SGD.
+#### SGD có một số ưu điểm so với gradient descent tiêu chuẩn, chẳng hạn như:
+* Hội tụ nhanh hơn [3]: SGD có thể hội tụ nhanh hơn gradient descent, đặc biệt là khi dữ liệu huấn luyện lớn.
+* Thoát khỏi các cực tiểu cục bộ [4]: SGD có khả năng thoát khỏi các cực tiểu cục bộ, điều này có thể giúp nó đạt được kết quả tốt hơn so với gradient descent tiêu chuẩn.
+#### Tuy nhiên, SGD cũng có một số nhược điểm:
+* Yêu cầu nhiều lần lặp hơn [5]: SGD thường yêu cầu nhiều lần lặp hơn gradient descent để hội tụ.
+* Nhạy cảm với tốc độ học [5]: Tốc độ học cần được điều chỉnh cẩn thận để đảm bảo hội tụ của SGD.
 
 
 
