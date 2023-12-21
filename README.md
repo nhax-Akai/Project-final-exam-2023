@@ -52,8 +52,6 @@ Một số nhược điểm của Adagrad:
 | RMSProp | - Tốc độ học thích ứng trên mỗi tham số giúp hạn chế sự tích lũy độ dốc. <br/>- Hiệu quả đối với các mục tiêu không cố định. | - Có thể có tốc độ hội tụ chậm trong một số trường hợp. |
 | Adagrad | - Tỷ lệ học tập thích ứng cho mỗi tham số. <br/>- Hiệu quả đối với dữ liệu thưa thớt. | - Việc tích lũy gradient bình phương trong mẫu số có thể khiến tốc độ học giảm xuống quá nhanh. <br/>- Có thể dừng việc học quá sớm. |
 
-### Hình ảnh minh họa
-![markdown](https://github.com/nhax-Akai/Project-final-exam-2023/blob/main/386889797_371110448658396_9011251296850470927_n.png)
 
 
 ## 2)Tìm hiểu về Continual Learning và Test Production khi xây dựng một giải pháp học máy để giải quyết một bài toán nào đó.
